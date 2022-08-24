@@ -5,8 +5,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["cdn.traction.one"]
-  }
+    domains: ["cdn.traction.one"],
+    deviceSizes:[320, 640, 768, 1024],
+  }    
 }
 
 module.exports = nextConfig
